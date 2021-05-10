@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Serilog", "Serilog\Sample.Serilog\Sample.Serilog.csproj", "{A25A74B3-B971-4EE8-ACB5-EE84FCF085BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Serilog.ElasticSearch", "Serilog\Sample.Serilog.ElasticSearch\Sample.Serilog.ElasticSearch.csproj", "{5D82415F-5C62-4F04-81BF-C8FBA3E88F6B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,17 @@ Global
 		{A25A74B3-B971-4EE8-ACB5-EE84FCF085BF}.Release|x64.Build.0 = Release|Any CPU
 		{A25A74B3-B971-4EE8-ACB5-EE84FCF085BF}.Release|x86.ActiveCfg = Release|Any CPU
 		{A25A74B3-B971-4EE8-ACB5-EE84FCF085BF}.Release|x86.Build.0 = Release|Any CPU
+		{5D82415F-5C62-4F04-81BF-C8FBA3E88F6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D82415F-5C62-4F04-81BF-C8FBA3E88F6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D82415F-5C62-4F04-81BF-C8FBA3E88F6B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5D82415F-5C62-4F04-81BF-C8FBA3E88F6B}.Debug|x64.Build.0 = Debug|Any CPU
+		{5D82415F-5C62-4F04-81BF-C8FBA3E88F6B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5D82415F-5C62-4F04-81BF-C8FBA3E88F6B}.Debug|x86.Build.0 = Debug|Any CPU
+		{5D82415F-5C62-4F04-81BF-C8FBA3E88F6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D82415F-5C62-4F04-81BF-C8FBA3E88F6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D82415F-5C62-4F04-81BF-C8FBA3E88F6B}.Release|x64.ActiveCfg = Release|Any CPU
+		{5D82415F-5C62-4F04-81BF-C8FBA3E88F6B}.Release|x64.Build.0 = Release|Any CPU
+		{5D82415F-5C62-4F04-81BF-C8FBA3E88F6B}.Release|x86.ActiveCfg = Release|Any CPU
+		{5D82415F-5C62-4F04-81BF-C8FBA3E88F6B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
