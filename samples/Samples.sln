@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Serilog", "Serilog\S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Serilog.ElasticSearch", "Serilog\Sample.Serilog.ElasticSearch\Sample.Serilog.ElasticSearch.csproj", "{5D82415F-5C62-4F04-81BF-C8FBA3E88F6B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Serilog", "Serilog", "{D15A640B-1AB5-4CD3-B0BA-FF5B3B74F1AE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +46,9 @@ Global
 		{5D82415F-5C62-4F04-81BF-C8FBA3E88F6B}.Release|x64.Build.0 = Release|Any CPU
 		{5D82415F-5C62-4F04-81BF-C8FBA3E88F6B}.Release|x86.ActiveCfg = Release|Any CPU
 		{5D82415F-5C62-4F04-81BF-C8FBA3E88F6B}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A25A74B3-B971-4EE8-ACB5-EE84FCF085BF} = {D15A640B-1AB5-4CD3-B0BA-FF5B3B74F1AE}
+		{5D82415F-5C62-4F04-81BF-C8FBA3E88F6B} = {D15A640B-1AB5-4CD3-B0BA-FF5B3B74F1AE}
 	EndGlobalSection
 EndGlobal
